@@ -1,8 +1,8 @@
 {
-  "name": "my_lib",
+  "name": "simple_js_lib",
   "version": "1.0.0",
   "description": "javacript library",
-  "main": "concat.js",
+  "main": "_simple-js.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,12 @@
   },
   "keywords": [
     "js",
-    "lib"
+    "lib",
+    "functions"
   ],
   "author": "vladislav <vladislav.frint@gmail.com>",
   "license": "ISC",
-  "dependencies": {
+  "DevDependencies": {
     "docdash": "^1.2.0"
   }
 }
