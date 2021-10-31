@@ -36,6 +36,6 @@ console.log(sjs.arraySum([1, 4, 3, [3]]));
 
 ### Documentation
 
-To see all available function visit (documentation)[https://vladislav-tech.github.io/simple-js/]
+To see all available function visit [documentation](https://vladislav-tech.github.io/simple-js/)
 
 **Notice**: in the documentation uses functions, not methods. Do not forget use thier like methods

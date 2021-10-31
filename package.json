@@ -1,6 +1,6 @@
 {
   "name": "simple_js_lib",
-  "version": "1.0.103",
+  "version": "1.0.103b",
   "description": "javacript library",
   "main": "_simple-js.js",
   "type": "module",
