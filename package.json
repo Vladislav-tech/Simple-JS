@@ -1,13 +1,14 @@
 {
   "name": "simple_js_lib",
-  "version": "1.0.102",
+  "version": "1.0.103",
   "description": "javacript library",
   "main": "_simple-js.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json",
-    "create-docs": "jsdoc lib.js README.md -t ./docdash/"
+    "create-docs": "jsdoc lib.js README.md -t ./docdash/",
+    "deploy": "sh deploy.sh"
   },
   "keywords": [
     "js",
@@ -18,9 +19,11 @@
     "type": "git",
     "url": "https://github.com/Vladislav-tech/simple-js"
   },
+  "homepage": "https://vladislav-tech.github.io/simple-js/",
   "author": "vladislav <vladislav.frint@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "docdash": "^1.2.0"
+    "docdash": "^1.2.0",
+    "gh-pages": "^3.2.3"
   }
 }
