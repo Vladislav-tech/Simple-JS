@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+
+sjs.test = function() {
+
+}

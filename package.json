@@ -1,0 +1,20 @@
+{
+  "name": "my_lib",
+  "version": "1.0.0",
+  "description": "javacript library",
+  "main": "concat.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "js",
+    "lib"
+  ],
+  "author": "vladislav <vladislav.frint@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "docdash": "^1.2.0"
+  }
+}
