@@ -1,6 +1,6 @@
 {
   "name": "simple_js_lib",
-  "version": "1.0.101",
+  "version": "1.0.102",
   "description": "javacript library",
   "main": "_simple-js.js",
   "type": "module",
@@ -14,9 +14,13 @@
     "lib",
     "functions"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vladislav-tech/simple-js"
+  },
   "author": "vladislav <vladislav.frint@gmail.com>",
   "license": "ISC",
-  "DevDependencies": {
+  "devDependencies": {
     "docdash": "^1.2.0"
   }
 }
