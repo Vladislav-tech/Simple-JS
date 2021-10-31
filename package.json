@@ -1,12 +1,13 @@
 {
   "name": "simple_js_lib",
-  "version": "1.0.0",
+  "version": "1.0.101",
   "description": "javacript library",
   "main": "_simple-js.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json"
+    "generate-docs": "node_modules/.bin/jsdoc -c jsdoc.json",
+    "create-docs": "jsdoc lib.js README.md -t ./docdash/"
   },
   "keywords": [
     "js",
